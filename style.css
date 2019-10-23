@@ -1,5 +1,6 @@
 .main-screen{
     /* background-color: black; */
+    background-image: linear-gradient(27deg,#81ecec 50%,#3f30af);
      height: 100vh;
     
    /* margin: 0; */
@@ -7,9 +8,10 @@
 
 body{
     height: 100%;
- background-image: url("car.jpg");
+ /* background-image: url("car.jpg");
      background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    
 }
 
 .implementation{
