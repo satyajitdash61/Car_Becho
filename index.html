@@ -20,52 +20,65 @@
                     <div class="implementation ">
                       <h2 class="text-center">Price Estimater</h2>
                       <Div class="row m-5">
-                        <div class="col-sm-3"></div>
-                        <div class="col-sm-4">
+                        <div class="col-sm-4"></div>
+                        <div class="col-sm-5">
                           <form action="/action_page.php">
-                            <label>Car Name  :</label>
-                                <select name="cars">
-                                  <option value="volvo">Volvo</option>
-                                  <option value="saab">Saab</option>
-                                  <option value="fiat">Fiat</option>
-                                  <option value="audi">Audi</option>
-                                </select>
-                            <label>Model Name  :</label>
-                                <select name="cars">
-                                  <option value="volvo">Volvo</option>
-                                  <option value="saab">Saab</option>
-                                  <option value="fiat">Fiat</option>
-                                  <option value="audi">Audi</option>
-                                </select>
-                            <label>model Year  :</label>
-                                <select name="cars">
-                                  <option value="volvo">Volvo</option>
-                                  <option value="saab">Saab</option>
-                                  <option value="fiat">Fiat</option>
-                                  <option value="audi">Audi</option>
-                                </select>
-                            <label>KM Driven :</label>
-                                <select name="cars">
-                                  <option value="volvo">Volvo</option>
-                                  <option value="saab">Saab</option>
-                                  <option value="fiat">Fiat</option>
-                                  <option value="audi">Audi</option>
-                                </select>
-                            <label>Issurance :</label>
-                                <select name="cars">
-                                  <option value="volvo">Volvo</option>
-                                  <option value="saab">Saab</option>
-                                  <option value="fiat">Fiat</option>
-                                  <option value="audi">Audi</option>
-                                </select>
-                            <label>No. Of Owners :</label>
-                                <select name="cars">
-                                  <option value="volvo">Volvo</option>
-                                  <option value="saab">Saab</option>
-                                  <option value="fiat">Fiat</option>
-                                  <option value="audi">Audi</option>
-                                </select>
-                            <input type="submit">
+                            <label class="font-weight-bold">Car Name  :</label>
+                                <input class="rounded" list="browsers" name="browser">
+                                <datalist id="browsers">
+                                  <option value="Internet Explorer">
+                                  <option value="Firefox">
+                                  <option value="Chrome">
+                                  <option value="Opera">
+                                  <option value="Safari">
+                                </datalist>
+                            <label class="font-weight-bold">Model Name  :</label>
+                                <input class="rounded" list="browsers" name="browser">
+                                <datalist id="browsers">
+                                  <option value="Internet Explorer">
+                                  <option value="Firefox">
+                                  <option value="Chrome">
+                                  <option value="Opera">
+                                  <option value="Safari">
+                                </datalist>
+                            <label class="font-weight-bold">model Year  :</label>
+                                <input class="rounded" list="browsers" name="browser">
+                                <datalist id="browsers">
+                                  <option value="Internet Explorer">
+                                  <option value="Firefox">
+                                  <option value="Chrome">
+                                  <option value="Opera">
+                                  <option value="Safari">
+                                </datalist>
+                            <label class="font-weight-bold">KM Driven :</label>
+                                <input class="rounded" list="browsers" name="browser">
+                                <datalist id="browsers">
+                                  <option value="Internet Explorer">
+                                  <option value="Firefox">
+                                  <option value="Chrome">
+                                  <option value="Opera">
+                                  <option value="Safari">
+                                </datalist>
+                            <label class="font-weight-bold">Issurance :</label>
+                                <input class="rounded" list="browsers" name="browser">
+                                <datalist id="browsers">
+                                  <option value="Internet Explorer">
+                                  <option value="Firefox">
+                                  <option value="Chrome">
+                                  <option value="Opera">
+                                  <option value="Safari">
+                                </datalist>
+                            <label class="font-weight-bold">No. Of Owners :</label>
+                                <input class="rounded" list="browsers" name="browser">
+                                <datalist id="browsers">
+                                  <option value="Internet Explorer">
+                                  <option value="Firefox">
+                                  <option value="Chrome">
+                                  <option value="Opera">
+                                  <option value="Safari">
+                                </datalist>
+
+                                <button type="button" class="submitbtn">Check Value</button>
                           </form>
                         </div>
                         <div class="col-sm-3"></div>
@@ -77,7 +90,6 @@
                         <!-- Main div to hold all Data -->
                         <!-- Login Form -->
                         <!-- <div class="row vertical-center-row">
-                          
                           <form class="form-horizontal" action="login.html">
                             <div class="form-group">
                               <label for="inputEmail" class="control-label col-md-2">Car Name</label>

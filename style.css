@@ -29,3 +29,8 @@ body{
 /* .outside{
     background-color: black;
 } */
+.submitbtn{
+    margin: 20px;
+    background-color:rgb(187, 51, 74);
+    border-radius: 5px;
+}
