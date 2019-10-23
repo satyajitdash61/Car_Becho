@@ -1,21 +1,28 @@
 .main-screen{
-    background-color: black;
-    height: 100vh;
-   margin: 0;
+    /* background-color: black; */
+     height: 100vh;
+    
+   /* margin: 0; */
 }
 
-html, body, .container-table {
+body{
     height: 100%;
+ background-image: url("car.jpg");
+     background-repeat: no-repeat;
+    background-size: cover;
 }
-.container-table {
-    display: table;
-}
-.vertical-center-row {
-    display: table-cell;
-    vertical-align: middle;
-}
+
 .implementation{
-    background-color: blanchedalmond;
+
+        background-color: #E8E3E3;
+        opacity: 0.7;
+        width: 90%;
+        height: 80%;
+        position: absolute;
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%, -50%);
+        border-radius: 20px;
 }
 /* .outside{
     background-color: black;
