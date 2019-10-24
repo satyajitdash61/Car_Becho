@@ -104,6 +104,28 @@ function hands(){
     }
     else{
         $("#wonership").hide();
-        
+        MongoUpdate();
     }
+}
+function MongoUpdate(){
+    console.log("bye")
+    $.ajax({
+        type: "POST",
+        dataType: "json",
+        url: "http://localhost:8300/",
+        data:{
+            Username:userName,
+             Mobile:mobile,
+             City:city,
+             Pin:pin,
+             Car:car,
+             Modelyear:modelYear,
+             Kms:KMs,
+             Insurance:insurance,
+             Woners:woners,  
+        },
+        error:function(err){
+            console.log("fail")
+    }
+    })
 }
