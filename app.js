@@ -111,7 +111,7 @@ function MongoUpdate(){
     console.log("bye")
     $.ajax({
         type: "POST",
-        dataType: "json",
+        // dataType: "json",
         url: "http://localhost:8300/",
         data:{
             Username:userName,

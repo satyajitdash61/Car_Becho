@@ -6,6 +6,7 @@ const client = new MongoClient(uri,{ useUnifiedTopology: true }, { useNewUrlPars
 const app = express();
 const port = 8300;
 const cors=require('cors');
+app.use(bodyparser.urlencoded({encoded:false}))
 app.use(bodyparser.json());
 client.connect(err => {
 const col = client.db("CarApp").collection('UserAndCarInfo');
@@ -21,7 +22,10 @@ require('./rout')(app, col);
 app.listen(port, () => {
 console.log("Port 8300 running on browser...");
 });
-client.close()});
+});
 
+// app.post('/',(req,res)=>{
+//     console.log(req.body.Username)
+// })
 
 

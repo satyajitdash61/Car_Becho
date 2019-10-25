@@ -9,6 +9,16 @@
     <title>Car Details</title>
 </head>
 <body>
+        <nav class="navbar navbar-light bg-light justify-content-between nav">
+                <a class="navbar-brand">Navbar</a>
+                <!-- <a class="home">Home</a>
+                <a class="text-center">Buy</a> -->
+                <form class="form-inline my-2 my-lg-0">
+                    <p class="text my-2 my-sm-2" >Home</p>
+                    <p class="text my-2 my-sm-2" >|</p>
+                    <p class="text my-2 my-sm-0" >Search</p>
+                </form>
+              </nav>
     <div class="container-fluid fullscreen">
         <div id="inner_div">
             <h2 class="text-center" style="text-shadow: 3px 5px 6px rgb(139, 137, 137);">User & Car Details</h2>
@@ -23,13 +33,13 @@
                     <span id="PinRequired">Pin Required *</span>
                 <input id="inputCar" type="text" name="" id="" placeholder="Select Car" >
                 <span id="selectCarRequired">Car Name Required *</span>
-                <input id="inputYear" type="text" name="" id="" placeholder="Model Year" >
+                <input id="inputYear" type="number" name="" id="" placeholder="Model Year" >
                 <span id="modelYearRequired">Model Year Required *</span>
                 <input id="inputKM" type="number" name="" id="" placeholder="KMs Driven">
                 <span id="KMsRequired">KMs Required *</span>
                 <input id="inputInsurance" type="text" name="" id="" placeholder="Insurance" >
                 <span id="InsuranceRequired">Insurance Required *</span>
-                <input id="inputWoners" type="text" name="" id="" placeholder="No of Woners" >
+                <input id="inputWoners" type="number" name="" id="" placeholder="No of Woners" >
                 <span id="wonership">Wonership Required *</span>
                 <button id="submit" type="submit" name="" style="background-color: orangered;margin: 2% auto;width: 180px;border-radius: 15px;border: none;" onclick="updatedb()">Next</button>
                 <!-- <button type="submit" class="btn btn-outline-primary" onclick="updatedb()">Next</button> -->

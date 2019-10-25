@@ -46,12 +46,14 @@ input{
     padding-left: 4%;
     box-shadow:  3px 5px 6px #ccc;
     background-color: rgb(236, 236, 236);
+    outline: none;
 }
 button{
     /* margin-top: 10%; */
     position: relative;
     top: 10%;
     height:80px;
+    outline: none !important;
 }
 #selectCarRequired{
     color: red;
@@ -93,5 +95,12 @@ button{
 span{
     position: relative;
     top: 2%;
+}
+.nav{
+    position: relative;
+}
+.home{
+    position: absolute;
+    right: 5%;
 }
     
