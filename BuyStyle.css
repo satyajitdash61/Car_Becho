@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    position: sticky;
+    background-color: #f34426;   
+    top: 0;
+    z-index: 1;
+
+}
+#maindiv{
+    display: none;
+}
+/* appending results */
+#jobResults{
+    position: relative;
+    /* height: 20%; */
+    /* background-color: yellow; */
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    /* border-bottom: 1px solid; */
+    /* display: none; */
+}
+/* career font */
+span{
+    font-family: 'Times New Roman', Times, serif
+}
+    

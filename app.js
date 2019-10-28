@@ -108,7 +108,6 @@ function hands(){
     }
 }
 function MongoUpdate(){
-    console.log("bye")
     $.ajax({
         type: "POST",
         // dataType: "json",
@@ -124,8 +123,14 @@ function MongoUpdate(){
              Insurance:insurance,
              Woners:woners,  
         },
+        success: function(g) {
+            console.log("Success")
+            javascipt:document.getElementById('gif').style.display = "flex";
+            javascipt:document.getElementById('inner_div').style.display = "none";
+        },
         error:function(err){
             console.log("fail")
+            alert("check your Internet Connection")
     }
     })
 }

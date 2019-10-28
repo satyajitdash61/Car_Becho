@@ -104,10 +104,24 @@ span{
     z-index: 1;
 
 }
-.home{
+/* .home{
     cursor: pointer; 
 }
 .bye{
-cursor: pointer;
+cursor: pointer; */
+/* } */
+#gif{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 1; */
+    display: none;
+}
+#loading{
+    height: 150%;
+    width: 200%;
+    opacity: 1;
 }
     

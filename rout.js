@@ -7,12 +7,14 @@ module.exports = (app, col) => {
             if (err) throw err;
             console.log("1 document inserted");
           });
-    //    res.status(200).send('one do');
-    // });
-    // app.get("/api", (req, res) => {
-    //     col.findOne({test_id: 1}, function(err, document) {
-    //         console.log(document)
-    //         res.send(document);
-    //       });
+        res.status(200).send('success');
+    });
+    app.get("/api", (req, res) => {
+        col.find({}).toArray(function(err, document) {
+            console.log(document)
+            res.send(document);
+          });          
     });
  }
+ 
+
