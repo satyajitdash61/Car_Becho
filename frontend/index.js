@@ -38,6 +38,9 @@ function Check(){
     if(CarWoner==2){
         price-=price*0.2;
     }
+    document.getElementById("inner_div").style.display="none";
+    document.getElementById("outputbox").style.display="block";    
+    document.getElementById("showPrice").innerHTML="&#x20b9"+" "+price+" - "+(price+29560);
     console.log(price);
     
      

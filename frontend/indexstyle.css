@@ -63,8 +63,48 @@ button{
     background-color: #f34426;   
     top: 0;
     z-index: 1;
-
+}
+.nav-shadow {
+    
+    box-shadow: 0 5px 7px rgba(0,0,0,0.3);
 }
 select{
     margin: 1%;
+    width: 150px;
+}
+h6{
+    margin: 0.5%;
+}
+#outputbox{
+    height: 90%;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    opacity: 0.95;
+    padding-top: 1%;
+    box-shadow: 3px 5px 6px rgb(163, 163, 163);
+    display: none;
+    
+}
+#priceDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    /* background-color: chartreuse; */
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.button{
+    border-radius: 10px;
+    margin : 10px;
+    width: 200px;
+    border: none;
+    outline: none;
+    background-color: rgb(241, 69, 7);
 }
