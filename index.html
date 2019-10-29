@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="indexstyle.css">
+    <title>Home</title>
+</head>
+<body>
+        <nav class="navbar justify-content-between nav">
+                <a class="font-weight-bold"><span style="color: white;">Car Becho</span></a>
+                
+                <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                          <a class="nav-link active" href="#"><span style="color: white;">Home</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="Buy.html"><span style="color: white;">Buy</span></a>
+                        </li>
+                      </ul>
+              </nav>
+    <div class="container-fluid fullscreen">
+        <div id="inner_div">
+            <h2 class="text-center" style="text-shadow: 3px 5px 6px rgb(139, 137, 137);">Price Estimator</h2>
+            <div id="inputBox">
+              <h6>Car :</h6>
+                    <select id="carModel">
+                      <option value="Hyundai i20">Hyundai i20</option>
+                      <option value="Toyota Corola">Toyota Corola</option>
+                    </select>
+                    <select id="carYear">
+                      <option value="2015">2015</option>
+                      <option value="2013">2013</option>
+                    </select>
+                    <select id="carKm">
+                      <option value="2000">2000</option>
+                      <option value="5000">5000</option>
+                    </select>
+                    <select id="carInsurance">
+                      <option value="yes">Yes</option>
+                      <option value="no">No</option>
+                    </select>
+                    <select id="carWoner">
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                    </select>
+
+                    
+                <button id="submit" type="submit" name="" style="background-color: orangered;margin: 2% auto;width: 180px;border-radius: 15px;border: none;" onclick="Check()">Check</button>
+                <!-- <button type="submit" class="btn btn-outline-primary" onclick="updatedb()">Next</button> -->
+            </div>
+        </div>
+          
+        
+</div>
+</body>
+<script src="jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</html>
