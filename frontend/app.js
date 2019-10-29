@@ -126,7 +126,7 @@ function MongoUpdate(){
         success: function(g) {
             console.log("Success")
             javascipt:document.getElementById('gif').style.display = "flex";
-            javascipt:document.getElementById('inner_div').style.display = "none";
+            javascipt:document.getElementById('fullscreen').style.display = "none";
         },
         error:function(err){
             console.log("fail")

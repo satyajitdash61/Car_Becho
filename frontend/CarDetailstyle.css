@@ -11,6 +11,7 @@
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(#f34426 ,#f2f1f5 50%);
+    /* display: none; */
     
  /* background-color: rgb(228, 231, 231); */
 }
@@ -122,10 +123,23 @@ cursor: pointer; */
     align-items: center;
     /* z-index: 1; */
     display: none;
+    flex-direction: column;
 }
 #loading{
-    height: 150%;
-    width: 200%;
+    position: relative;
+    margin-top: 7%;
+    height: 10%;
+    width: 40%;
     opacity: 1;
 }
+.button{
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    border: none;
+    outline: none;
+    background-color: rgb(241, 69, 7);
+}
+
     
