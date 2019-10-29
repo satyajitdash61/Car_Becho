@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="CarDetailstyle.css">
+    <title>Car Details</title>
+</head>
+<body>
+        <nav class="navbar justify-content-between nav nav-shadow">
+                <a class="font-weight-bold"><span style="color: white;">Car Becho</span></a>
+                
+                <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                          <a class="nav-link active" href="index.html"><span style="color: white;">Home</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="Buy.html"><span style="color: white;">Buy</span></a>
+                        </li>
+                      </ul>
+              </nav>
+    <div class="container-fluid fullscreen" id="fullscreen">
+        <div id="inner_div">
+            <h2 class="text-center" style="text-shadow: 3px 5px 6px rgb(139, 137, 137);">User & Car Details</h2>
+            <div id="inputBox">
+                    <input id="inputName" type="text" name="" id="" placeholder="Name">
+                    <span id="UserNameRequired">User Name Required *</span>
+                    <input id="inputMobile" type="number" name="" id="" placeholder="Mobile">
+                    <span id="MobileRequired">Mobile Required *</span>
+                    <input id="inputCity" type="text" name="" id="" placeholder="City">
+                    <span id="CityRequired">City Name Required *</span>
+                    <input id="inputPin" type="number" name="" id="" placeholder="Pin">
+                    <span id="PinRequired">Pin Required *</span>
+                <input id="inputCar" type="text" name="" id="" placeholder="Select Car" >
+                <span id="selectCarRequired">Car Name Required *</span>
+                <input id="inputYear" type="number" name="" id="" placeholder="Model Year" >
+                <span id="modelYearRequired">Model Year Required *</span>
+                <input id="inputKM" type="number" name="" id="" placeholder="KMs Driven">
+                <span id="KMsRequired">KMs Required *</span>
+                <input id="inputInsurance" type="text" name="" id="" placeholder="Insurance" >
+                <span id="InsuranceRequired">Insurance Required *</span>
+                <input id="inputWoners" type="number" name="" id="" placeholder="No of Woners" >
+                <span id="wonership">Wonership Required *</span>
+                <button id="submit" type="submit" name="" style="background-color: orangered;margin: 2% auto;width: 180px;border-radius: 15px;border: none;" onclick="updatedb()">Next</button>
+                <!-- <button type="submit" class="btn btn-outline-primary" onclick="updatedb()">Next</button> -->
+            </div>
+        </div>        
+        
+</div>
+<div id="gif">
+  <img src="undraw_done_a34v.svg" id="loading" >
+  <button class="button" onclick="location.href='index.html'">Home</button>
+</div>
+</body>
+<script src="jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</html>
