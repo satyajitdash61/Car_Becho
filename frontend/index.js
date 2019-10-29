@@ -16,6 +16,9 @@ function Check(){
     
     const arr = [{ car: "Hyundai i20", price: 600000},
                  { car: "Toyota Corola", price: 900000}, 
+                 { car: "Scoda Rapid", price: 900000},
+                 { car: "Ford Endevour", price: 900000},
+                 { car: "Jeep Compas", price: 900000}
                 ];
 
     let op=arr.filter((a)=>a.car===CarModel);
