@@ -81,13 +81,13 @@ h6{
     margin: 0.5%;
 }
 #outputbox{
-    height: 90%;
-    width: 400px;
+    height: 80%;
+    width: 350px;
     background-color: white;
     border-radius: 20px;
-    opacity: 0.95;
+    /* opacity: 0.95; */
     padding-top: 1%;
-    box-shadow: 3px 5px 6px rgb(163, 163, 163);
+    box-shadow: 1px 1px 20px  #70707050;
     display: none;
     
 }
