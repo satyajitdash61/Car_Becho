@@ -5,6 +5,10 @@
 /* body{
     height: 100%;
 } */
+#logo{
+    color: white;
+    letter-spacing: 1px;
+}
 .fullscreen{
     height: 100vh;
     display: flex;
