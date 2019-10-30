@@ -25,7 +25,8 @@
         <div id="inner_div">
             <h4 class="text-center">Price Estimator</h4>
             <div id="inputBox">
-              <h5>Car :</h5>
+              <div class="info">
+                    <h6>Car </h6>
                     <select id="carModel">
                       <option value="Hyundai i20">Hyundai i20</option>
                       <option value="Toyota Corola">Toyota Corola</option>
@@ -33,30 +34,38 @@
                       <option value="Ford Endevour">Ford Endevour</option>
                       <option value="Jeep Compas">Jeep Compas</option>
                     </select>
-                    <h5>Years :</h5>
+              </div>
+              <div class="info">
+                    <h6>Years</h6>
                     <select id="carYear">
                       <option value="2015">2015</option>
                       <option value="2013">2013</option>
                       <option value="2010">2010</option>
                     </select>
-                    <h5>KMs :</h5>
+              </div>
+              <div class="info">    
+                    <h6>KMs</h6>
                     <select id="carKm">
                       <option value="5000">5000-9000</option>
                       <option value="10000">10000-19000</option>
                       <option value="20000">20000-29000</option>
                       <option value="30000">More</option>
                     </select>
-                    <h5>Insurance :</h5>
+              </div>       
+              <div class="info">
+                    <h6>Insurance</h6>
                     <select id="carInsurance">
                       <option value="yes">Yes</option>
                       <option value="no">No</option>
                     </select>
-                    <h5>Owners :</h5>
+              </div> 
+              <div class="info">
+                    <h6>Owners</h6>
                     <select id="carWoner">
                       <option value="1">One</option>
                       <option value="2">Two</option>
                     </select>
-
+              </div> 
                     
                 <button id="submit" type="submit" name="" style="background-color: rgb(0, 0, 0);margin: 2% auto;width: 180px;border-radius: 15px;border: none;color: white;;" onclick="Check()">Check</button>
                 <!-- <button type="submit" class="btn btn-outline-primary" onclick="updatedb()">Next</button> -->
@@ -64,7 +73,7 @@
             
         </div>
         <div id="outputbox">
-            <h2 class="text-center">Price Guide</h2>
+            <h4 class="text-center">Price Guide</h4>
             <div id="priceDiv">
               <h2 id="showPrice"></h2>
             </div>
