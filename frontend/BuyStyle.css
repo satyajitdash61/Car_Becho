@@ -2,9 +2,13 @@
     margin: 0;
     padding: 0;
 }
+#logo{
+    color: white;
+    letter-spacing: 1px;
+}
 .nav{
     position: sticky;
-    background-color: #f34426;   
+    background-color: #000000;   
     top: 0;
     z-index: 1;
 
@@ -28,7 +32,5 @@
     /* display: none; */
 }
 /* career font */
-span{
-    font-family: 'Times New Roman', Times, serif
-}
+
     
