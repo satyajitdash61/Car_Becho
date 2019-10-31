@@ -4,7 +4,8 @@
 }
 #logo{
     color: white;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    font-size: 22px;
 }
 .nav{
     position: sticky;

@@ -54,6 +54,10 @@ function Check(){
     document.getElementById("outputbox").style.display="block";    
     document.getElementById("showPrice").innerHTML="&#x20b9"+" "+price+" - "+(price+29560);
     console.log(price);
+
+    let b = {}
+    b.price =;
+    b.year = 
     
      
 }
