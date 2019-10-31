@@ -44,36 +44,36 @@ const Upload =require("./Model/Uploading");
        Car.findOne({car})
        .then(car =>{
         let Car_Price=JSON.parse(JSON.stringify(car)).price;
-        console.log(Car_Price);
+        
         
         if(Car_Year==2015){
-        price-=price*0.1;
+        Car_Price-=Car_Price*0.1;
     }
     if(Car_Year==2013){
-        price-=price*0.12;
+        Car_Price-=Car_Price*0.12;
     }
     if(Car_Year==2010){
-        price-=price*0.13;
+        Car_Price-=Car_Price*0.13;
     }
     if(Car_km==5000){
-        price-=price*0.04;
+        Car_Price-=Car_Price*0.04;
     }
     if(Car_km==10000){
-        price-=price*0.06;
+        Car_Price-=Car_Price*0.06;
     }
     if(Car_km==20000){
-        price-=price*0.08;
+        Car_Price-=Car_Price*0.08;
     }
     if(Car_km==30000){
-        price-=price*0.9;
+        Car_Price-=Car_Price*0.9;
     }
     if(Car_Insurance=="no"){
-        price-=price*0.4;
+        Car_Price-=Car_Price*0.4;
     }    
     if(Car_Owner==2){
-        price-=price*0.2;
+        Car_Price-=Car_Price*0.2;
     }
-
+    console.log(Car_Price);
        })
       
     })
