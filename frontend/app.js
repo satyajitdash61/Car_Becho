@@ -110,8 +110,8 @@ function hands(){
 function MongoUpdate(){
     $.ajax({
         type: "POST",
-        // dataType: "json",
-        url: "http://localhost:8300/",
+        dataType: "json",
+        url: "http://localhost:8300/api/",
         data:{
             Username:userName,
              Mobile:mobile,
