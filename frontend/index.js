@@ -69,7 +69,11 @@ function Check(){
         url: "http://localhost:8300/api/calculation/"+b,
         
         success: function(g) {
-            console.log(g)
+            let price=parseInt(g.price)
+            console.log(price);
+            document.getElementById("inner_div").style.display="none";
+            document.getElementById("outputbox").style.display="block";    
+            document.getElementById("showPrice").innerHTML="&#x20b9"+" "+price+" - "+(price+29560);
         },
         error:function(err){
             console.log("fail")
