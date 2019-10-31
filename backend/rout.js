@@ -32,10 +32,10 @@ const Upload =require("./Model/Uploading");
     });
     router.get("/allcars", (req, res) => {
         Upload.find({})
-        .then((cars)=>{if(!cars)
-        return res.status(404).json({"error":"no data to show"});
-        console.log(cars);
-        res.status(200).json(cars)
+              .then((cars)=>{if(!cars)
+               return res.status(404).json({"error":"no data to show"});
+               console.log(cars);
+               res.status(200).json(cars)
           });          
     });
     router.get("/calculation/:b",(req,res) =>{
