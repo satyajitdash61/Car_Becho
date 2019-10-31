@@ -46,31 +46,31 @@ const Upload =require("./Model/Uploading");
         let Car_Price=JSON.parse(JSON.stringify(car)).price;
         console.log(Car_Price);
         
-        if(CarYear==2015){
+        if(Car_Year==2015){
         price-=price*0.1;
     }
-    if(CarYear==2013){
+    if(Car_Year==2013){
         price-=price*0.12;
     }
-    if(CarYear==2010){
+    if(Car_Year==2010){
         price-=price*0.13;
     }
-    if(CarKm==5000){
+    if(Car_km==5000){
         price-=price*0.04;
     }
-    if(CarKm==10000){
+    if(Car_km==10000){
         price-=price*0.06;
     }
-    if(CarKm==20000){
+    if(Car_km==20000){
         price-=price*0.08;
     }
-    if(CarKm==30000){
+    if(Car_km==30000){
         price-=price*0.9;
     }
-    if(CarInsurance=="no"){
+    if(Car_Insurance=="no"){
         price-=price*0.4;
     }    
-    if(CarWoner==2){
+    if(Car_Owner==2){
         price-=price*0.2;
     }
 
