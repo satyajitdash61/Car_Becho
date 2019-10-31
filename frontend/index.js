@@ -69,7 +69,7 @@ function Check(){
         url: "http://localhost:8300/api/calculation/"+b,
         
         success: function(g) {
-            console.log("Success")
+            console.log(g)
         },
         error:function(err){
             console.log("fail")

@@ -48,32 +48,32 @@ const Upload =require("./Model/Uploading");
         
         if(Car_Year==2015){
         Car_Price-=Car_Price*0.1;
-    }
-    if(Car_Year==2013){
-        Car_Price-=Car_Price*0.12;
-    }
-    if(Car_Year==2010){
-        Car_Price-=Car_Price*0.13;
-    }
-    if(Car_km==5000){
-        Car_Price-=Car_Price*0.04;
-    }
-    if(Car_km==10000){
-        Car_Price-=Car_Price*0.06;
-    }
-    if(Car_km==20000){
-        Car_Price-=Car_Price*0.08;
-    }
-    if(Car_km==30000){
-        Car_Price-=Car_Price*0.9;
-    }
-    if(Car_Insurance=="no"){
-        Car_Price-=Car_Price*0.4;
-    }    
-    if(Car_Owner==2){
-        Car_Price-=Car_Price*0.2;
-    }
-    console.log(Car_Price);
+        }
+        if(Car_Year==2013){
+            Car_Price-=Car_Price*0.12;
+        }
+        if(Car_Year==2010){
+            Car_Price-=Car_Price*0.13;
+        }
+        if(Car_km==5000){
+            Car_Price-=Car_Price*0.04;
+        }
+        if(Car_km==10000){
+            Car_Price-=Car_Price*0.06;
+        }
+        if(Car_km==20000){
+            Car_Price-=Car_Price*0.08;
+        }
+        if(Car_km==30000){
+            Car_Price-=Car_Price*0.9;
+        }
+        if(Car_Insurance=="no"){
+            Car_Price-=Car_Price*0.4;
+        }    
+        if(Car_Owner==2){
+            Car_Price-=Car_Price*0.2;
+        }
+        return res.json({"price":Car_Price});
        })
       
     })
