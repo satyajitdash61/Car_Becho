@@ -39,11 +39,14 @@ const Upload =require("./Model/Uploading");
           });          
     });
     router.get("/calculation/:b",(req,res) =>{
-       let c = JSON.parse(req.params.b);
-      //  Car.findOne({car:c.Car})
-      //  .then(car =>{
-         console.log(c);
-      //  })
+      let p;
+       let {car,Car_Year,Car_km,Car_Insurance,Car_Owner} = JSON.parse(req.params.b);
+       Car.findOne({car})
+       .then(car =>{
+        p=JSON.parse(JSON.stringify(car)).price;
+       })
+      console.log(p);
+      
     })
  
 

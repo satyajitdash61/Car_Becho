@@ -7,6 +7,7 @@ const carSchema = new Schema({
     any : Schema.Types.Mixed
 })
 
+carSchema.set('collection','CarInfo');
 
 
 module.exports = Car = mongoose.model('CarInfo',carSchema);
