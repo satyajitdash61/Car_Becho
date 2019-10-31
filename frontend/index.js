@@ -55,9 +55,26 @@ function Check(){
     document.getElementById("showPrice").innerHTML="&#x20b9"+" "+price+" - "+(price+29560);
     console.log(price);
 
-    let b = {}
-    b.price =;
-    b.year = 
+    let b = {};
+    b.Car = CarModel;
+    b.Car_Year = CarYear;
+    b.Car_Km = CarKm;
+    b.Car_Insurance = CarInsurance;
+    b.Car_Owner = CarWoner;
+    b = JSON.stringify(b);
+    $.ajax({
+        type: "GET",
+        // dataType: "json",
+        url: "http://localhost:8300/calculation/"+b,
+        
+        success: function(g) {
+            console.log("Success")
+        },
+        error:function(err){
+            console.log("fail")
+            alert("check your Internet Connection")
+    }
+    })
     
      
 }

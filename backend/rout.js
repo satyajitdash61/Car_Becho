@@ -15,6 +15,9 @@ module.exports = (app, col) => {
             res.send(document);
           });          
     });
+    app.get("/calculation",(req,res) =>{
+      
+    })
  }
  
 
