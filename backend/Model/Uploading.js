@@ -24,6 +24,10 @@ const UploadingSchema = new Schema({
      type  : String,
      required:true
  },
+ modelyear:{
+    type  : Number,
+    required:true
+ },
  kms:{
   type:Number,
   required: true
