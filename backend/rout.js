@@ -15,8 +15,10 @@ module.exports = (app, col) => {
             res.send(document);
           });          
     });
-    app.get("/calculation",(req,res) =>{
-      
+    app.get("/calculation/:b",(req,res) =>{
+       let c = JSON.parse(req.params.b);
+       Car.findOne({car:c.Car})
+       .the
     })
  }
  
