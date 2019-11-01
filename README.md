@@ -10,4 +10,3 @@ Smita
 
 # Screenshots
 
-![6th Image](Screenshots/carbecho6.PNG)
