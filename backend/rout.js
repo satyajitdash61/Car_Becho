@@ -4,9 +4,6 @@ const Car=require("./Model/CarModel");
 const Upload =require("./Model/Uploading");
 
     router.post("/", (req, res) => {
-      // console.log("hello")
-        // console.log(req.body);
-        // console.log(req.body.Username);
         const note= req.body;
         const newUpload = new Upload({
           username:note.Username,
