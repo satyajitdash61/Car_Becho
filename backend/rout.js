@@ -14,7 +14,7 @@ const Upload =require("./Model/Uploading");
           city:note.City,
           pin:note.Pin,
           car:note.Car,
-          modelyear:note.ModelYear,
+          modelyear:note.Modelyear,
           kms:note.Kms,
           insurance:note.Insurance,
           owners:note.Woners
