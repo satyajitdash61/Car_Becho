@@ -8,21 +8,24 @@
 }
 #Brandname{
 position: relative;
-margin: 5%;
+top: 15%;
 }
 h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     letter-spacing: 2px;
     color: white;
 }
-#brandlogo{
+#Brandlogo{
+    position: relative;
+    top: 25%;
+    right: 2%;
     height: 200px;
     width: 230px;
     
 }
 .button {
     position: relative;
-    top: 20%;
+    top: 35%;
     border-radius: 20px;
     background-color: #ffffff;
     border: none;
