@@ -16,7 +16,7 @@ $.ajax({
         <li class="list-group-item">Model Year: ${i.modelyear}</li>    
         <li class="list-group-item">KMs: ${i.kms}</li>
         <li class="list-group-item">Insurance: ${i.insurance}</li>
-        <li class="list-group-item">Owners: ${i.woners}</li>
+        <li class="list-group-item">Owners: ${i.owners}</li>
       </ul> `)
         });
         
