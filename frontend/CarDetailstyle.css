@@ -9,6 +9,7 @@
     color: white;
     letter-spacing: 2px;
     font-size: 22px;
+    cursor: pointer;
 }
 .fullscreen{
     height: 100vh;
