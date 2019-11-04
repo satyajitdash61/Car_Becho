@@ -30,21 +30,36 @@ function Check(){
     let carKm = document.getElementById("carKm");
     CarKm =  carKm.options[carKm.selectedIndex].value;
     if(CarKm==="none"){
-        $("#YearRequired").show();
+        $("#KmRequired").show();
     }
     else{
-        $("#YearRequired").hide();
-        kms();
+        $("#KmRequired").hide();
+        insu();
     }
     }
+    function insu(){
     let carInsurance = document.getElementById("carInsurance");
     CarInsurance = carInsurance.options[carInsurance.selectedIndex].value;
-    
+    if(CarInsurance==="none"){
+        $("#InsRequired").show();
+    }
+    else{
+        $("#InsRequired").hide();
+        ownernum();
+    }
+    }
+    function ownernum(){
     let carWoner = document.getElementById("carWoner");
     CarWoner = carWoner.options[carWoner.selectedIndex].value;
-    
-    
-
+    if(CarWoner==="none"){
+        $("#OwnerRequired").show();
+    }
+    else{
+        $("#OwnerRequired").hide();
+        fun();
+    }
+    }
+    function fun(){
     let b = {};
     b.car = CarModel;
     b.Car_Year = CarYear;
@@ -71,4 +86,4 @@ function Check(){
     }
     })
     
-     
+}
