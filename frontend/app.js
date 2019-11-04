@@ -64,9 +64,11 @@ function carName(){
     }
 }
 function year(){
-    modelYear=document.getElementById("inputYear").value;
+    // modelYear=document.getElementById("inputYear").value;
+    let my = document.getElementById("inputYear");
+    modelYear = my.options[my.selectedIndex].value;
     console.log(modelYear);
-    if(modelYear===""){
+    if(modelYear==="none"){
         $("#modelYearRequired").show();
     }
     else{
@@ -86,9 +88,11 @@ function kelometers(){
     }
 }
 function insuranceValidate(){
-    insurance=document.getElementById("inputInsurance").value;
+    let ins = document.getElementById("inputInsurance");
+    insurance = ins.options[ins.selectedIndex].value;
+    // insurance=document.getElementById("inputInsurance").value;
     console.log(insurance);
-    if(insurance===""){
+    if(insurance==="none"){
         $("#InsuranceRequired").show();
     }
     else{
@@ -97,9 +101,11 @@ function insuranceValidate(){
     }
 }
 function hands(){
-    woners=document.getElementById("inputWoners").value;
+    let hnd = document.getElementById("inputWoners");
+    woners = hnd.options[hnd.selectedIndex].value;
+    // woners=document.getElementById("inputWoners").value;
     console.log(woners);
-    if(woners===""){
+    if(woners==="none"){
         $("#wonership").show();
     }
     else{
