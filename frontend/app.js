@@ -113,7 +113,7 @@ function MongoUpdate(){
         dataType: "json",
         url: "http://localhost:8300/api/",
         data:{
-            Username:userName,
+             Username:userName,
              Mobile:mobile,
              City:city,
              Pin:pin,

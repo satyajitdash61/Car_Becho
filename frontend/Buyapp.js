@@ -1,7 +1,6 @@
 $(document).ready(function(){
 $.ajax({
     url:"http://localhost:8300/api/allcars",
-
 }).done(function(newdata){
     data=newdata;
     console.log(data);

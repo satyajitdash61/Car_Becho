@@ -13,20 +13,23 @@ $("#signupbtn").click(function(){
     {
         alert("password is not same !!!");
     }
-    console.log(username);
+    console.log(email);
     console.log(password);
     //$(".startquiz").css("display","flex");
     $.ajax({
         type: "POST",
         dataType: "json",
-        url: "http://localhost:8000/",
+        url: "http://localhost:8300/api/signup",
         data:{
-            Username:username,
-            Password:password
+            email: email,
+            password:password
+        },
+        success: function(g) {
+            console.log("Success");
+
         },
         error:function(err){
             console.log("fail")
     }
-    
-    })
+})
 })
