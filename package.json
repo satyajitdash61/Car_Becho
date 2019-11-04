@@ -1,0 +1,23 @@
+{
+  "name": "car_becho",
+  "version": "1.0.0",
+  "description": "It is a online price estimater of used car. User has to give certain inputs regarding the car and the system will generate a estimated fare range. User also can sell the car.\r # Technology Used\r Html, Css, Js, Node Js,Mongo DB, Express Js,Bootstrap",
+  "main": "index.js",
+  "dependencies": {
+    "mongoose": "^5.7.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satyajitdash61/Car_Becho.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/satyajitdash61/Car_Becho/issues"
+  },
+  "homepage": "https://github.com/satyajitdash61/Car_Becho#readme"
+}
