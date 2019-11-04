@@ -23,6 +23,10 @@
     background-image: linear-gradient(27deg,#000000 50%,#f2f1f5 50%);
     background-size: cover;
 }
+.create-account-label,.sign-in-label
+{
+    color: antiquewhite;
+}
 #inner_div{
     height: 80%;
     width: 350px;

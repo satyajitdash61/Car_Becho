@@ -9,31 +9,33 @@
     <title>Car Becho</title>
 </head>
 <body class="screen">
-    <h1 class="text-center font-italic">CAR BECHO</h1>
+    <!-- <h1 class="text-center font-italic">CAR BECHO</h1> -->
 <div class="container pt-3">
   <div class="row justify-content-sm-center">
     <div class="col-sm-6 col-md-4">
 
       <div class="card border-info text-center">
-        <div class="card-header font-weight-bold"><h3>Sign in to continue</h3></div>
+            <h3>Create Account</h3>
         <div class="card-body">
           <img src="car.jpg" height="200" width="250">
           <!-- <h4 class="text-center">Hunger & Debt Ltd</h4> -->
           <form class="form-signin">
-            <input type="text" class="form-control mb-2" placeholder="Email" required autofocus>
-            <input type="password" class="form-control mb-2" placeholder="Password" required>
-            <button class="btn btn-lg btn-dark btn-block mb-1" type="submit">Sign in</button>
+            <input type="text" class="form-control mb-2 email" placeholder="Email" required autofocus>
+            <input type="password" class="form-control mb-2 password" placeholder="Password" required>
+            <input type="password" class="form-control mb-2 repeat-password" placeholder="Confirm Password" required>
+            <button class="btn btn-lg btn-dark btn-block" id="signupbtn" type="submit">Sign Up</button>
             <label class="checkbox float-left">
               <!-- <input type="checkbox" value="remember-me">Remember me</label> -->
           </form>
         </div>
       </div>
-      <a href="signup.html" class="float-right create-account-label">Create an account </a>
+      <a href="login.html" class="float-right sign-in-label">Sign In</a>
     </div>
   </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="login.js"></script>
 </body>
 </html>
