@@ -6,6 +6,7 @@
     color: white;
     letter-spacing: 2px;
     font-size: 22px;
+    cursor: pointer;
 }
 .nav{
     position: sticky;
