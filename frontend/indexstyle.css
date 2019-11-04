@@ -123,7 +123,7 @@ h3{
     align-items: center;
     flex-direction: column;
 }
-span{
+#ModelRequired,#YearRequired,#KmRequired,#InsRequired,#OwnerRequired{
     position: relative;
     top: 1%;
     color: red;
