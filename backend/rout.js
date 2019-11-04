@@ -8,6 +8,7 @@ const Upload =require("./Model/Uploading");
         // console.log(req.body);
         // console.log(req.body.Username);
         const note= req.body;
+        console.log(note);
         const newUpload = new Upload({
           username:note.Username,
           mobile:note.Mobile,
@@ -29,6 +30,11 @@ const Upload =require("./Model/Uploading");
                     res.status(200).json({"success":"user stored successfully"})
                   })
                   .catch(err => console.log(err)); 
+    });
+    router.post("/signup",(req,res)=>{
+        const data=req.body;
+        console.log("hsjf")
+        console.log(req.body);
     });
     router.get("/allcars", (req, res) => {
         Upload.find({})
@@ -77,8 +83,7 @@ const Upload =require("./Model/Uploading");
        })
       
     })
- 
-
+    
     module.exports = router;
  
 
