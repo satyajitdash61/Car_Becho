@@ -16,4 +16,9 @@
   color: white;
   letter-spacing: 2px;
   font-size: 22px;
+  margin-left: 10px;
+}
+#logoimg{
+  height: 30px;
+  vertical-align: -8px;
 }
