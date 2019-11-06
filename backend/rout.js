@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const Car=require("./Model/CarModel");
 const Upload =require("./Model/Uploading");
+const bodyparser=require('body-parser');
 
     router.post("/", (req, res) => {
       // console.log("hello")

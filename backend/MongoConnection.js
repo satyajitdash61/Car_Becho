@@ -15,7 +15,7 @@ mongoose.connect(uri,{useNewUrlParser:true,useUnifiedTopology:true})
                     .catch(err => console.log('Error occured while connecting MongoDB '+err));
 
 
-app.use('/api',require('./rout'))
+app.use('/api',require('./rout').default)
 
 app.listen(port, () => {
 console.log("Port 8300 running on browser...");
