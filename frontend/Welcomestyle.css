@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+body{
+  overflow-x: hidden;
+}
 .nav{
   position: sticky;
   background-color: #000000;   
@@ -57,22 +60,33 @@ h2{
 }
 #specifications{
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   flex-direction: row;
   height: 80%;
-  width: 90%;
+  width: 100%;
+  /* padding-right: 5%; */
   /* background-color: tomato; */
 }
 #estimate{
-  height: 50px;
-  width: 80px;
+  position: absolute;
+  left: 20%;
+  height: 240px;
+  width: 100px;
+  /* background-color: yellow; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 #sell{
-  height: 50px;
-  width: 50px;
+  position: absolute;
+  left: 80%;
+  height: 240px;
+  width: 100px;
 }
-#bye{
-  height: 50px;
-  width: 50px;
+#buy{
+  position: absolute;
+  left: 50%;
+  height: 240px;
+  width: 100px;
 }
