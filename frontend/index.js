@@ -62,6 +62,7 @@ function Check(){
     }
 sending data to backend
     function fun(){
+// appending all data in a object
     let b = {};
     b.car = CarModel;
     b.Car_Year = CarYear;
