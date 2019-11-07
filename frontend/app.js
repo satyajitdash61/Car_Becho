@@ -8,6 +8,7 @@ let modelYear;
 let KMs;
 let insurance;
 let woners;
+// validating inputs
 function updatedb(){
     userName=document.getElementById("inputName").value;
     console.log(userName);
