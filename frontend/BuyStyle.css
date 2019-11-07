@@ -9,6 +9,10 @@
     margin-left: 10px;
     cursor: pointer;
 }
+#logoimg{
+    height: 30px;
+    vertical-align: -8px;
+  }
 .nav{
     position: sticky;
     background-color: #000000;   
