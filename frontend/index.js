@@ -4,6 +4,7 @@ let CarKm;
 let CarInsurance;
 let CarWoner;
 
+// validating
 function Check(){
     let carModel=document.getElementById("carModel");
     CarModel=carModel.options[carModel.selectedIndex].value;
