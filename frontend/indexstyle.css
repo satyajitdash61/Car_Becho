@@ -6,7 +6,13 @@
     color: white;
     letter-spacing: 2px;
     font-size: 22px;
-}
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  #logoimg{
+    height: 30px;
+    vertical-align: -8px;
+  }
 /* body{
     height: 100%;
 } */
