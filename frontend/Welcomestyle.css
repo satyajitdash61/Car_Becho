@@ -20,6 +20,7 @@ body{
   letter-spacing: 2px;
   font-size: 22px;
   margin-left: 10px;
+  cursor: pointer;
 }
 #logoimg{
   height: 30px;
