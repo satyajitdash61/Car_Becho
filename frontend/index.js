@@ -60,6 +60,7 @@ function Check(){
         fun();
     }
     }
+sending data to backend
     function fun(){
     let b = {};
     b.car = CarModel;
