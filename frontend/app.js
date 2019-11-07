@@ -114,6 +114,7 @@ function hands(){
         MongoUpdate();
     }
 }
+// updating data in mongo db
 function MongoUpdate(){
     $.ajax({
         type: "POST",
