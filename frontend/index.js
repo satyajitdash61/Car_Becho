@@ -4,6 +4,7 @@ let CarKm;
 let CarInsurance;
 let CarWoner;
 
+// validating
 function Check(){
     let carModel=document.getElementById("carModel");
     CarModel=carModel.options[carModel.selectedIndex].value;
@@ -59,7 +60,9 @@ function Check(){
         fun();
     }
     }
+sending data to backend
     function fun(){
+// appending all data in a object
     let b = {};
     b.car = CarModel;
     b.Car_Year = CarYear;

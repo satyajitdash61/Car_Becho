@@ -5,6 +5,7 @@ $.ajax({
 }).done(function(newdata){
     data=newdata;
     console.log(data);
+//     Card view of results
     $("#maindiv").show();
         data.forEach(i => {
         $("#maindiv").append(`<ul class="list-group mb-4 shadow-sm">
