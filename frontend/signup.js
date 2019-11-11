@@ -28,17 +28,17 @@ $("#signupbtn").click(function(){
     $.ajax({
         type: "POST",
         dataType: "json",
-        url: "http://localhost:5000/user/signup",
+        url: "http://localhost:8300/user/signup",
         data:{
             email: email,
             password:password
         },
         success: function (){
             console.log("ajax call done successfully")
-            window.location.href = "/home.html";
+            window.location.href = "./login.html";
         },
         error:function(err){
-            window.location.href = "/signup.html";
+            window.location.href = "signup.html";
         }
     })
 })
@@ -52,7 +52,7 @@ $("#loginbtn").click(function(){
     $.ajax({
         type: "POST",
         dataType: "json",
-        url: "http://localhost:5000/user/login",
+        url: "http://localhost:8300/user/login",
         data:{
             email: email,
             password:password
@@ -60,7 +60,7 @@ $("#loginbtn").click(function(){
         success: function () {
             // window.location.href = "login.html";
             console.log("ajax call done successfully")
-            window.location.href = "home.html";
+            window.location.href = "Welcome.html";
         },
         error:function(err){
             console.log("fail")

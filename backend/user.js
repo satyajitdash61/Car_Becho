@@ -1,7 +1,7 @@
 const express=require('express');
 const router=express.Router();
 const mongoose=require('mongoose');
-const User=require('../models/usermodel');
+const User =require("./Model/usermodel");
 const bcrypt=require('bcryptjs');
 
 
@@ -44,7 +44,7 @@ router.post('/signup',(req,res,next)=>{
             }))
            
         }
-        console.log("sdfsad");
+        // console.log("sdfsad");
     })
 })
 
