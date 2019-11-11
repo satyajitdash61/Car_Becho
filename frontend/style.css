@@ -1,13 +1,29 @@
+/* .card{
+    border-radius: 20px;
+} */
+.window{
+    border-radius: 30px !important;
+}
 input{
     margin: 10px;
-    width: 300px;
+    width: 80%;
+    height: 35px;
+    border-radius: 20px;
     padding-left: 2%;
     border: 1px solid rgb(115, 155, 241);
+    outline: none !important;
 }
 button{
+    position: relative;
+    margin-top: 5%;
     background-color: white;
-    border: 1px solid rgb(115, 155, 241);
-    outline: none;
+    border: 1px solid rgb(8, 54, 153);
+    border-radius: 20px;
+    outline: none !important;
     cursor: pointer;
+    transition: 0.5s;
 }
-button
+button:hover{
+    background-color: rgb(8, 54, 153);
+    color: white;
+}
