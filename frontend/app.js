@@ -119,7 +119,7 @@ function MongoUpdate(){
     $.ajax({
         type: "POST",
         dataType: "json",
-        url: "http://localhost:8300/api/",
+        url: "https://carbecho.herokuapp.com/api/",
         data:{
             Username:userName,
              Mobile:mobile,

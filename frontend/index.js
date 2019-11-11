@@ -74,7 +74,7 @@ sending data to backend
     $.ajax({
         type: "GET",
         // dataType: "json",
-        url: "http://localhost:8300/api/calculation/"+b,
+        url: "https://carbecho.herokuapp.com/api/calculation/"+b,
         
         success: function(g) {
             let price=parseInt(g.price)

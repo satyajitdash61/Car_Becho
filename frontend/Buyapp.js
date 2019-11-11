@@ -1,6 +1,6 @@
 $(document).ready(function(){
 $.ajax({
-    url:"http://localhost:8300/api/allcars",
+    url:"https://carbecho.herokuapp.com/api/allcars",
 
 }).done(function(newdata){
     data=newdata;

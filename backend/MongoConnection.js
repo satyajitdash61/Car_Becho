@@ -16,7 +16,7 @@ mongoose.connect(uri,{useNewUrlParser:true,useUnifiedTopology:true})
 
 
 app.use('/api',require('./rout'));
-app.use('/user',require('./user'));
+app.use('/',require('./user'));
 
 app.listen(port, () => {
 console.log("Port 8300 running on browser...");

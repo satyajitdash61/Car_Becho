@@ -32,7 +32,7 @@ $("#check").click(function(){
             email: email,
             password:password
         },
-        url: "http://localhost:8300/user/signup",
+        url: "https://carbecho.herokuapp.com/user/signup",
         success: function (){
             console.log("ajax call done successfully")
             window.location.href = "login.html";
@@ -52,7 +52,7 @@ $("#loginbtn").click(function(){
     $.ajax({
         type: "POST",
         dataType: "json",
-        url: "http://localhost:8300/user/login",
+        url: "https://carbecho.herokuapp.com/user/login",
         data:{
             email: email,
             password:password
