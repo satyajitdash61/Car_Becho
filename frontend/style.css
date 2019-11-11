@@ -3,6 +3,11 @@
 } */
 .window{
     border-radius: 30px !important;
+    border-color: black;
+}
+.header{
+    border-bottom: 1px solid black;
+    /* border-radius: 20px; */
 }
 input{
     margin: 10px;
