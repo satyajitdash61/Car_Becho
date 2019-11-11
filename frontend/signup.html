@@ -19,16 +19,21 @@
               <div class="card-header font-weight-bold mb-2"><h3>Create Account</h3></div>
                 <!-- <h3>Create Account</h3> -->
             <div class="card-body">
-              <form class="form-signin" action="/" method="post">
-                <input type="text" class="form-control mb-3 email" placeholder="Email" required autofocus>
-                <input type="password" class="form-control mb-3 password" placeholder="Password" required>
-                <input type="password" class="form-control mb-3 repeat-password" placeholder="Confirm Password" required>
-                <button class="btn btn-lg btn-dark btn-block" id="signupbtn" type="submit">Sign Up</button>
+              <!-- <form class="form-signin1">
+                <input type="text" class="mb-3 email" name="Email" placeholder="Email" required autofocus>
+                <input type="password" class="mb-3 password" name="Password" placeholder="Password" required>
+                <input type="password" class="mb-3 repeat-password" name="Repeatpassword" placeholder="Confirm Password" required>
+                <button class="btn btn-lg btn-dark btn-block" id="signupbtn">Sign Up</button>
                 <label class="checkbox float-left">
-                  <!-- <input type="checkbox" value="remember-me">Remember me</label> -->
+                 <input type="checkbox" value="remember-me">Remember me</label>
                   <a href="login.html" class="float-right sign-in-label">Sign In</a>
+              </form> -->
+              <form >
+                  <input type="text" name="email" class="email">
+                  <input type="password" name="Password" class="password">
+                  <input type="password" name="repeat-Password" class="repeat-password">
               </form>
-              
+              <button id="check">Submit</button>
             </div>
           </div>
          

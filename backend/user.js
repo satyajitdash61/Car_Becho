@@ -52,6 +52,7 @@ router.post('/signup',(req,res,next)=>{
 router.post('/login',(req,res)=>{
     console.log("gfjh")
     const {email,password}=req.body;
+
     User.findOne({email:email})
              .then(user => {       
                 bcrypt.compare(password,user.password)

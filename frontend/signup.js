@@ -4,7 +4,7 @@ let Email;
 let password;
 let rPassword;
 
-$("#signupbtn").click(function(){
+$("#check").click(function(){
     console.log("sdjhf")
     email=$(".email").val();
     password=$(".password").val();
@@ -12,14 +12,14 @@ $("#signupbtn").click(function(){
 
     console.log(email);
     console.log(password);
-    if(password!=passwordRepeat)
-    {
-        alert("password is not same !!!");
-    }
-    if(!email || !password || !passwordRepeat)
-    {
-        alert("Please fill in all fields");
-    }
+    //if(password!=passwordRepeat)
+    // {
+    //     alert("password is not same !!!");
+    // }
+    // if(!email || !password || !passwordRepeat)
+    // {
+    //     alert("Please fill in all fields");
+    // }
     // if(password.length<6)
     // {
     //     alert('Password should be at least 6 characters');
@@ -27,18 +27,18 @@ $("#signupbtn").click(function(){
 
     $.ajax({
         type: "POST",
-        dataType: "json",
-        url: "http://localhost:8300/user/signup",
+        // dataType: "json",
         data:{
             email: email,
             password:password
         },
+        url: "http://localhost:8300/user/signup",
         success: function (){
             console.log("ajax call done successfully")
-            window.location.href = "./login.html";
+            window.location.href = "login.html";
         },
         error:function(err){
-            window.location.href = "signup.html";
+            // window.location.href = "signup.html";
         }
     })
 })
