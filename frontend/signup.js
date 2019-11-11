@@ -28,7 +28,7 @@ $("#signupbtn").click(function(){
     $.ajax({
         type: "POST",
         dataType: "json",
-        url: "http://localhost:5000/api/signup",
+        url: "http://localhost:5000/user/signup",
         data:{
             email: email,
             password:password
@@ -52,7 +52,7 @@ $("#loginbtn").click(function(){
     $.ajax({
         type: "POST",
         dataType: "json",
-        url: "http://localhost:5000/api/login",
+        url: "http://localhost:5000/user/login",
         data:{
             email: email,
             password:password
