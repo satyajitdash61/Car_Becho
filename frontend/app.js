@@ -80,7 +80,7 @@ function year(){
 function kelometers(){
     KMs=document.getElementById("inputKM").value;
     console.log(KMs);
-    if(KMs===""){
+    if(KMs==="" || KMs <= 0){
         $("#KMsRequired").show();
     }
     else{
