@@ -2,7 +2,7 @@
     border-radius: 20px;
 } */
 .screen{
-    background-image: url(Audi.jpg);
+    background-image: url(./images/Audi.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -24,6 +24,7 @@ input{
     padding-left: 2%;
     border: 1px solid rgb(0, 0, 0);
     outline: none !important;
+    opacity: 1;
 }
 button{
     position: relative;
