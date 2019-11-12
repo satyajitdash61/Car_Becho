@@ -12,18 +12,18 @@ $("#check").click(function(){
 
     console.log(email);
     console.log(password);
-    //if(password!=passwordRepeat)
-    // {
-    //     alert("password is not same !!!");
-    // }
-    // if(!email || !password || !passwordRepeat)
-    // {
-    //     alert("Please fill in all fields");
-    // }
-    // if(password.length<6)
-    // {
-    //     alert('Password should be at least 6 characters');
-    // }
+    if(password!=passwordRepeat)
+    {
+        alert("password is not same !!!");
+    }
+    if(!email || !password || !passwordRepeat)
+    {
+        alert("Please fill in all fields");
+    }
+    if(password.length<6)
+    {
+        alert('Password should be at least 6 characters');
+    }
 
     $.ajax({
         type: "POST",
@@ -62,7 +62,8 @@ $("#loginbtn").click(function(){
             console.log("ajax call done successfully")
             window.location.href = "Welcome.html";
         },
-        error:function(err){
+        error:function(){
+            alert("Email or Password is wrong");
             console.log("fail")
         }
     })

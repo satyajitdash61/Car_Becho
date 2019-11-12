@@ -60,7 +60,7 @@ function Check(){
         fun();
     }
     }
-sending data to backend
+// sending data to backend
     function fun(){
 // appending all data in a object
     let b = {};
