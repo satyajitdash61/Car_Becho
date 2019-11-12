@@ -11,4 +11,13 @@ Smita
 # Screenshots
 
 ![Log In Page](Screenshots/carbecho1.PNG)
+![Sign Up Page](Screenshots/carbecho2.PNG)
+![Home Page1](Screenshots/carbecho3.PNG)
+![Home Page2](Screenshots/carbecho4.PNG)
+![Home Page3](Screenshots/carbecho5.PNG)
+![Price Estimator Page](Screenshots/carbecho6.PNG)
+![Result Page](Screenshots/carbecho7.PNG)
+![Sell Car Page](Screenshots/carbecho8.PNG)
+![Submitted Successfully Page](Screenshots/carbecho9.PNG)
+![Buy Car Page](Screenshots/carbecho10.PNG)
 
