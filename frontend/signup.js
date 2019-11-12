@@ -22,7 +22,7 @@ $("#check").click(function(){
     }
     if(password.length<6)
     {
-        alert('Password should be at least 6 characters');
+        alert('Password should be at least 7 characters');
     }
 
     $.ajax({
