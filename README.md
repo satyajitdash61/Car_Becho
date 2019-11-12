@@ -10,5 +10,5 @@ Smita
 
 # Screenshots
 
-![Log In Page](./Screenshots/carbecho1.png)
+![Log In Page](Screenshots/carbecho1.png)
 
