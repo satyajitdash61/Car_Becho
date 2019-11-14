@@ -29,6 +29,7 @@ const Upload =require("./Model/Uploading");
                   })
                   .catch(err => console.log(err)); 
     });
+// buy section
     router.get("/allcars", (req, res) => {
         Upload.find({})
               .then((cars)=>{if(!cars)
