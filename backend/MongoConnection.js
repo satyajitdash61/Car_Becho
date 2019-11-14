@@ -16,6 +16,7 @@ mongoose.connect(uri,{useNewUrlParser:true,useUnifiedTopology:true})
 
 // for sell and buy car
 app.use('/api',require('./rout'));
+// for login and signup
 app.use('/',require('./user'));
 
 app.listen(port, () => {
