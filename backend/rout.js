@@ -38,6 +38,7 @@ const Upload =require("./Model/Uploading");
                res.status(200).json(cars)
           });          
     });
+// calculating car price
     router.get("/calculation/:b",(req,res) =>{
       
        let {car,Car_Year,Car_km,Car_Insurance,Car_Owner} = JSON.parse(req.params.b);
