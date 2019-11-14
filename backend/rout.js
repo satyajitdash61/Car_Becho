@@ -3,6 +3,8 @@ const router = express.Router();
 const Car=require("./Model/CarModel");
 const Upload =require("./Model/Uploading");
 
+// uploading user and car details
+
     router.post("/", (req, res) => {
         const note= req.body;
         const newUpload = new Upload({
