@@ -9,6 +9,10 @@ Satyajit
 
 Smita
 
+# Preview
+
+https://optimistic-jang-15ee9c.netlify.com/frontend/login.html
+
 # Screenshots
 
 ![Log In Page](Screenshots/carbecho1.PNG)
