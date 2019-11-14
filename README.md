@@ -1,7 +1,8 @@
 # Car_Becho
-It is a online price estimater of used car. User has to give certain inputs regarding the car and the system will generate a estimated fare range. User also can sell the car.
+It is a online web application using which we can use to buy or sell our used cars.It also estimate price of used car based on some parameter. User has to give certain inputs regarding the car and the system will generate a estimated fare range.
+
 # Technology Used
-Html, Css, Js, Node Js,Mongo DB, Express Js,Bootstrap
+Html, CSS, Bootstrap, Javascript, JQuery, Node.Js, Mongo DB, Express.js.
 
 # Author
 Satyajit
