@@ -14,7 +14,7 @@ mongoose.connect(uri,{useNewUrlParser:true,useUnifiedTopology:true})
                     .then(() => console.log('Connected to MongoDB Successfully......'))
                     .catch(err => console.log('Error occured while connecting MongoDB '+err));
 
-
+// for sell and buy car
 app.use('/api',require('./rout'));
 app.use('/',require('./user'));
 
