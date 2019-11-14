@@ -18,7 +18,7 @@ const Upload =require("./Model/Uploading");
           insurance:note.Insurance,
           owners:note.Woners
         })
-
+// saving in mongo db
         newUpload.save()
                  .then(user =>
                   {
