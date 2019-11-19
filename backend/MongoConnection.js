@@ -23,6 +23,4 @@ app.listen(port, () => {
 console.log("Port 8300 running on browser...");
 });
 
-// app.post('/',(req,res)=>{
-//     console.log(req.body.Username)
-// })
+
