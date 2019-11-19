@@ -35,8 +35,7 @@ router.post('/signup',(req,res,next)=>{
                 //save user
                 user.save()
                 .then(user=>{
-                    // res.status(200).send("success");
-                    // req.flash('success_msg','you are now registered');
+                    
                     res.status("201").send("success");
                 })
                 .catch(err=>console.log(err));
