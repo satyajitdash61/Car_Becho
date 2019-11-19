@@ -32,7 +32,7 @@ router.post('/signup',(req,res,next)=>{
                 //setting password to hashed
                 user.password=hash;
 
-                //save user
+                //saving user
                 user.save()
                 .then(user=>{
                     
