@@ -8,6 +8,8 @@ const bcrypt=require('bcryptjs');
 //signup handle
 router.post('/signup',(req,res,next)=>{
     
+// appending values of id and password in variable
+    
     const {email,password}=req.body;
     User.findOne({email:email}).then(user=>{
         if(user){
