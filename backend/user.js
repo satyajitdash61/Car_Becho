@@ -29,7 +29,7 @@ router.post('/signup',(req,res,next)=>{
             bcrypt.hash(user.password, salt,(err,hash)=>{
                 if(err) throw err;
 
-                //set password to hashed
+                //setting password to hashed
                 user.password=hash;
 
                 //save user
