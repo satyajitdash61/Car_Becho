@@ -7,7 +7,7 @@ Html, CSS, Bootstrap, Javascript, JQuery, Node.Js, Mongo DB, Express.js.
 # Author
 Satyajit Dash
 
-Smita Pa
+Smita Pat
 
 # Preview
 
