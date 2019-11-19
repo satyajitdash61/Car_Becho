@@ -5,7 +5,7 @@ It is a online web application using which we can be used to buy or sell our use
 Html, CSS, Bootstrap, Javascript, JQuery, Node.Js, Mongo DB, Express.js.
 
 # Author
-Satyajit Da
+Satyajit Das
 
 Smita
 
