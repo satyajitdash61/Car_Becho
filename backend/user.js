@@ -53,7 +53,8 @@ router.post('/login',(req,res)=>{
     const {email,password}=req.body;
 
     User.findOne({email:email})
-             .then(user => {       
+             .then(user => {  
+            // encrypting password
                 bcrypt.compare(password,user.password)
                             .then(correct =>{
                                 console.log(correct)
