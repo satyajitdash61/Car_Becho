@@ -42,7 +42,7 @@ router.post('/signup',(req,res,next)=>{
             }))
            
         }
-        // console.log("sdfsad");
+        
     })
 })
 
